@@ -6,6 +6,8 @@ namespace CompanyEmployees;
 
 public class MappingProfile : Profile
 {
+	
+	
 	public MappingProfile()
 	{
 		CreateMap<Company, CompanyDto>()
